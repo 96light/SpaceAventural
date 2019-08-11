@@ -87,7 +87,7 @@ void Enermy::Shoot(std::vector<std::shared_ptr<Bullet>>& listBullet)
 	auto texture = ResourceManagers::GetInstance()->GetTexture("bullet");
 
 	std::shared_ptr<Bullet> bullet = std::make_shared<Bullet>(model, shader, texture);
-	bullet->SetSize(20, 20);
+	bullet->SetSize(15, 20);
 	bullet->Set2DPosition(Get2DPosition());
 	bullet->SetSpeed(-500);
 	bullet->SetType(BULLET_TYPE::Enermy);

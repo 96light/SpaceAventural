@@ -24,7 +24,7 @@ GSPlay::GSPlay()
 	m_SpawnCooldown = 0.1;
 	m_SpawnCooldown2 = 1;
 	 m_SpawnCooldown2=0.3;
-	 m_score = 0; 
+	 m_score = 40; 
 	// m_sound = sound;
 }
 
