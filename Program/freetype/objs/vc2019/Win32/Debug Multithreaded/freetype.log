@@ -2,12 +2,12 @@
   bdf.c
   cff.c
   ftbase.c
-  D:\Games\Programming\freetype\src\autofit\afscript.h: warning C4819: The file contains a character that cannot be represented in the current code page (932). Save the file in Unicode format to prevent data loss (compiling source file ..\..\..\src\autofit\autofit.c)
-  D:\Games\Programming\freetype\src\autofit\afscript.h: warning C4819: The file contains a character that cannot be represented in the current code page (932). Save the file in Unicode format to prevent data loss (compiling source file ..\..\..\src\autofit\autofit.c)
-  D:\Games\Programming\freetype\src\autofit\afblue.c: warning C4819: The file contains a character that cannot be represented in the current code page (932). Save the file in Unicode format to prevent data loss (compiling source file ..\..\..\src\autofit\autofit.c)
-  D:\Games\Programming\freetype\src\autofit\afscript.h: warning C4819: The file contains a character that cannot be represented in the current code page (932). Save the file in Unicode format to prevent data loss (compiling source file ..\..\..\src\autofit\autofit.c)
-  D:\Games\Programming\freetype\src\autofit\afscript.h: warning C4819: The file contains a character that cannot be represented in the current code page (932). Save the file in Unicode format to prevent data loss (compiling source file ..\..\..\src\autofit\autofit.c)
-  D:\Games\Programming\freetype\src\autofit\afscript.h: warning C4819: The file contains a character that cannot be represented in the current code page (932). Save the file in Unicode format to prevent data loss (compiling source file ..\..\..\src\autofit\autofit.c)
+  C:\Users\quang\OneDrive\Documents\GitHub\SpaceAventural\Program\freetype\src\autofit\afscript.h: warning C4819: The file contains a character that cannot be represented in the current code page (932). Save the file in Unicode format to prevent data loss (compiling source file ..\..\..\src\autofit\autofit.c)
+  C:\Users\quang\OneDrive\Documents\GitHub\SpaceAventural\Program\freetype\src\autofit\afscript.h: warning C4819: The file contains a character that cannot be represented in the current code page (932). Save the file in Unicode format to prevent data loss (compiling source file ..\..\..\src\autofit\autofit.c)
+  C:\Users\quang\OneDrive\Documents\GitHub\SpaceAventural\Program\freetype\src\autofit\afblue.c: warning C4819: The file contains a character that cannot be represented in the current code page (932). Save the file in Unicode format to prevent data loss (compiling source file ..\..\..\src\autofit\autofit.c)
+  C:\Users\quang\OneDrive\Documents\GitHub\SpaceAventural\Program\freetype\src\autofit\afscript.h: warning C4819: The file contains a character that cannot be represented in the current code page (932). Save the file in Unicode format to prevent data loss (compiling source file ..\..\..\src\autofit\autofit.c)
+  C:\Users\quang\OneDrive\Documents\GitHub\SpaceAventural\Program\freetype\src\autofit\afscript.h: warning C4819: The file contains a character that cannot be represented in the current code page (932). Save the file in Unicode format to prevent data loss (compiling source file ..\..\..\src\autofit\autofit.c)
+  C:\Users\quang\OneDrive\Documents\GitHub\SpaceAventural\Program\freetype\src\autofit\afscript.h: warning C4819: The file contains a character that cannot be represented in the current code page (932). Save the file in Unicode format to prevent data loss (compiling source file ..\..\..\src\autofit\autofit.c)
   ftbitmap.c
   ftcache.c
   ftfstype.c
@@ -43,4 +43,4 @@
   type42.c
   winfnt.c
   ftdebug.c
-  freetype.vcxproj -> D:\Games\Programming\freetype\builds\windows\vc2019\.\..\..\..\objs\vc2019\Win32\freetype.lib
+  freetype.vcxproj -> C:\Users\quang\OneDrive\Documents\GitHub\SpaceAventural\Program\freetype\builds\windows\vc2019\.\..\..\..\objs\vc2019\Win32\freetype.lib

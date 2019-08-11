@@ -158,9 +158,9 @@ void Player::CheckCollider(std::vector<std::shared_ptr<Bullet>>& listBullet, std
 		}
 	}
 
-	for (auto bullet : listBullet3)
+	for (auto bullet : listBullet2)
 	{
-		if (bullet->IsActive() && bullet->GetType() == BULLET_TYPE3::Enermy)
+		if (bullet->IsActive() && bullet->GetType() == BULLET_TYPE2::Enermy)
 		{
 			if (distance(pos, bullet->Get2DPosition()) < m_SizeCollider + bullet->GetColliderSize())
 			{
