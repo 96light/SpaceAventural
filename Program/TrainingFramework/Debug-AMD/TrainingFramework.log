@@ -1,0 +1,65 @@
+﻿  cl : Command line warning D9035 : option 'Gm' has been deprecated and will be removed in a future release
+  TrainingFramework.cpp
+  Texture.cpp
+  Shaders.cpp
+  Models.cpp
+D:\Games\Programming\TrainingFramework\src\GameObject\Models.cpp(35,1): warning C4996:  'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(208): message :  see declaration of 'fopen'
+D:\Games\Programming\TrainingFramework\src\GameObject\Models.cpp(53,1): warning C4996:  'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1197): message :  see declaration of 'fscanf'
+D:\Games\Programming\TrainingFramework\src\GameObject\Models.cpp(54,1): warning C4996:  'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1197): message :  see declaration of 'fscanf'
+D:\Games\Programming\TrainingFramework\src\GameObject\Models.cpp(60,1): warning C4996:  'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1197): message :  see declaration of 'fscanf'
+D:\Games\Programming\TrainingFramework\src\GameObject\Models.cpp(62,1): warning C4996:  'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1197): message :  see declaration of 'fscanf'
+D:\Games\Programming\TrainingFramework\src\GameObject\Models.cpp(63,1): warning C4996:  'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1197): message :  see declaration of 'fscanf'
+D:\Games\Programming\TrainingFramework\src\GameObject\Models.cpp(64,1): warning C4996:  'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1197): message :  see declaration of 'fscanf'
+D:\Games\Programming\TrainingFramework\src\GameObject\Models.cpp(66,1): warning C4996:  'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1197): message :  see declaration of 'fscanf'
+D:\Games\Programming\TrainingFramework\src\GameObject\Models.cpp(67,1): warning C4996:  'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1197): message :  see declaration of 'fscanf'
+D:\Games\Programming\TrainingFramework\src\GameObject\Models.cpp(68,1): warning C4996:  'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1197): message :  see declaration of 'fscanf'
+D:\Games\Programming\TrainingFramework\src\GameObject\Models.cpp(70,1): warning C4996:  'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1197): message :  see declaration of 'fscanf'
+D:\Games\Programming\TrainingFramework\src\GameObject\Models.cpp(71,1): warning C4996:  'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1197): message :  see declaration of 'fscanf'
+D:\Games\Programming\TrainingFramework\src\GameObject\Models.cpp(72,1): warning C4996:  'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1197): message :  see declaration of 'fscanf'
+D:\Games\Programming\TrainingFramework\src\GameObject\Models.cpp(74,1): warning C4996:  'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1197): message :  see declaration of 'fscanf'
+D:\Games\Programming\TrainingFramework\src\GameObject\Models.cpp(75,1): warning C4996:  'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1197): message :  see declaration of 'fscanf'
+D:\Games\Programming\TrainingFramework\src\GameObject\Models.cpp(76,1): warning C4996:  'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1197): message :  see declaration of 'fscanf'
+D:\Games\Programming\TrainingFramework\src\GameObject\Models.cpp(78,1): warning C4996:  'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1197): message :  see declaration of 'fscanf'
+D:\Games\Programming\TrainingFramework\src\GameObject\Models.cpp(79,1): warning C4996:  'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1197): message :  see declaration of 'fscanf'
+D:\Games\Programming\TrainingFramework\src\GameObject\Models.cpp(84,1): warning C4996:  'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1197): message :  see declaration of 'fscanf'
+D:\Games\Programming\TrainingFramework\src\GameObject\Models.cpp(89,1): warning C4996:  'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1197): message :  see declaration of 'fscanf'
+D:\Games\Programming\TrainingFramework\src\GameObject\Models.cpp(90,1): warning C4996:  'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1197): message :  see declaration of 'fscanf'
+D:\Games\Programming\TrainingFramework\src\GameObject\Models.cpp(91,1): warning C4996:  'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1197): message :  see declaration of 'fscanf'
+D:\Games\Programming\TrainingFramework\src\GameObject\Models.cpp(92,1): warning C4996:  'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1197): message :  see declaration of 'fscanf'
+D:\Games\Programming\TrainingFramework\src\GameObject\Models.cpp(93,1): warning C4996:  'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  Sprite3D.cpp
+  Camera.cpp
+  Sprite2D.cpp
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1197): message :  see declaration of 'fscanf'
+D:\Games\Programming\TrainingFramework\src\GameObject\Sprite2D.cpp(143,11): warning C4244:  'initializing': conversion from 'double' to 'float', possible loss of data
+D:\Games\Programming\TrainingFramework\src\GameObject\Sprite2D.cpp(144,11): warning C4244:  'initializing': conversion from 'double' to 'float', possible loss of data
+D:\Games\Programming\TrainingFramework\src\GameObject\Sprite2D.cpp(154,11): warning C4244:  'initializing': conversion from 'double' to 'float', possible loss of data
+  Application.cpp
+D:\Games\Programming\TrainingFramework\src\GameObject\Sprite2D.cpp(155,11): warning C4244:  'initializing': conversion from 'double' to 'float', possible loss of data
+  Generating Code...
+D:\Games\Programming\TrainingFramework\src\Application.cpp(84,50): warning C4305:  'argument': truncation from 'double' to 'GLfloat'
+Application.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/SAFESEH' specification
+  TrainingFramework.vcxproj -> D:\Games\Programming\\BIN-AMD\TrainingFramework.exe

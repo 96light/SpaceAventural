@@ -1,0 +1,15 @@
+﻿  cl : Command line warning D9035 : option 'Gm' has been deprecated and will be removed in a future release
+  TGA.cpp
+  MemoryOperators.cpp
+  MemoryManager.cpp
+  U_Math.cpp
+D:\Games\Programming\Utilities\src\U_Math.cpp(7,13): warning C4244:  'return': conversion from 'double' to 'GLfloat', possible loss of data
+D:\Games\Programming\Utilities\src\U_Math.cpp(101,13): warning C4244:  'return': conversion from 'double' to 'GLfloat', possible loss of data
+  esUtil_win.cpp
+  esUtil.cpp
+  esShader.cpp
+  Generating Code...
+D:\Games\Programming\Utilities\src\U_Math.cpp(205,13): warning C4244:  'return': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(1445,5): warning MSB8012: TargetPath(D:\Games\Programming\\BIN-Nvidia\Utilities.lib) does not match the Library's OutputFile property value (D:\Games\Programming\BIN-Nvidia\UtilitiesD.lib). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(1447,5): warning MSB8012: TargetName(Utilities) does not match the Library's OutputFile property value (UtilitiesD). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+  Utilities.vcxproj -> D:\Games\Programming\\BIN-Nvidia\Utilities.lib

@@ -1,0 +1,13 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(992,5): warning MSB8027: Two or more files with the name of sid.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are src\audiosource\tedsid\sid.cpp, src\tools\tedsid2dump\sid.cpp.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(992,5): warning MSB8027: Two or more files with the name of main.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are src\tools\codegen\main.cpp, src\tools\lutgen\main.cpp, src\tools\resamplerlab\main.cpp, src\tools\tedsid2dump\main.cpp.
+  soloud_thread.cpp
+Debug\main.obj : warning LNK4042: object specified more than once; extras ignored
+Debug\main.obj : warning LNK4042: object specified more than once; extras ignored
+Debug\main.obj : warning LNK4042: object specified more than once; extras ignored
+Debug\sid.obj : warning LNK4042: object specified more than once; extras ignored
+main.obj : warning LNK4006: _main already defined in sanity.obj; second definition ignored
+ted.obj : warning LNK4006: "public: __thiscall TED::TED(void)" (??0TED@@QAE@XZ) already defined in tedmem.obj; second definition ignored
+ted.obj : warning LNK4006: "public: void __thiscall TED::enableChannel(unsigned int,bool)" (?enableChannel@TED@@QAEXI_N@Z) already defined in tedmem.obj; second definition ignored
+ted.obj : warning LNK4006: "public: void __thiscall TED::oscillatorReset(void)" (?oscillatorReset@TED@@QAEXXZ) already defined in tedsound.obj; second definition ignored
+ted.obj : warning LNK4006: "public: void __thiscall TED::oscillatorInit(void)" (?oscillatorInit@TED@@QAEXXZ) already defined in tedsound.obj; second definition ignored
+  soloud.vcxproj -> D:\Games\Programming\soloud\Debug\soloud.lib

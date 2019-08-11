@@ -1,0 +1,219 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src\base">
+      <UniqueIdentifier>{e388b019-fb9b-40cd-aba2-246176719ffa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{fd1c118e-ef6b-46b5-b39c-97f44c5c4389}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\pcf">
+      <UniqueIdentifier>{c9aa467b-da26-4854-b503-6cfb9bc1752f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\pfr">
+      <UniqueIdentifier>{88f016fb-40e3-4afa-97b2-4bc35c9069bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\psaux">
+      <UniqueIdentifier>{b990756f-e657-42ae-8976-343ed099632c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\pshinter">
+      <UniqueIdentifier>{d8ae21be-b426-47c6-a182-7065ca52ed24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\psnames">
+      <UniqueIdentifier>{e447f481-ecb6-49fe-97b6-5c487866251a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\raster">
+      <UniqueIdentifier>{a821e29e-75d9-41a4-999c-308d92708254}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\sfnt">
+      <UniqueIdentifier>{00b357ad-a71b-4d91-816c-a1e6183b03db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\truetype">
+      <UniqueIdentifier>{317c48b4-c3f8-46e3-ac08-753c46fa6198}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\type1">
+      <UniqueIdentifier>{2f81a847-e08b-4fa8-bfc9-eea79c06a371}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\cid">
+      <UniqueIdentifier>{1ab60a62-e7d8-46c3-b895-695220dd40ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\type42">
+      <UniqueIdentifier>{38de0932-fdc7-422c-a29e-3eaef6e0fd7f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\winfonts">
+      <UniqueIdentifier>{55200d5a-04c7-4b3c-b977-375df8cde79d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\autofit">
+      <UniqueIdentifier>{4e738b10-a2a5-4672-ab73-210728454341}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\bdf">
+      <UniqueIdentifier>{1e5ef385-4bd4-4600-881b-eef24c34e815}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\cff">
+      <UniqueIdentifier>{2f744209-0863-4979-9530-35a3ce96d655}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\cache">
+      <UniqueIdentifier>{1509384a-6cf4-4638-965e-7880be656870}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="builds\windows">
+      <UniqueIdentifier>{e1de1e30-f43d-4c97-8a46-5f23bd27f240}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="builds">
+      <UniqueIdentifier>{4938a204-1d7d-4b9a-8ba1-6a45a64ebf13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\gzip">
+      <UniqueIdentifier>{880bd537-3869-4899-8937-0f202eeb80ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\lzw">
+      <UniqueIdentifier>{45334c64-94cf-4f4f-b136-aa90df044656}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\smooth">
+      <UniqueIdentifier>{11c82fa0-153e-4395-b23f-e35768b86ca3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{748f9a51-7ece-46a0-accf-e046ac0ab5b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\config">
+      <UniqueIdentifier>{3c0c5ea8-a87c-4a6a-8fc1-53c19c80577e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\src\base\ftbbox.c">
+      <Filter>src\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\base\ftmm.c">
+      <Filter>src\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\base\ftpfr.c">
+      <Filter>src\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\base\ftsynth.c">
+      <Filter>src\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\base\fttype1.c">
+      <Filter>src\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\base\ftwinfnt.c">
+      <Filter>src\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\base\ftxf86.c">
+      <Filter>src\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\base\ftlcdfil.c">
+      <Filter>src\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\base\ftgxval.c">
+      <Filter>src\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\base\ftotval.c">
+      <Filter>src\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\base\ftpatent.c">
+      <Filter>src\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\pcf\pcf.c">
+      <Filter>src\pcf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\pfr\pfr.c">
+      <Filter>src\pfr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\psaux\psaux.c">
+      <Filter>src\psaux</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\pshinter\pshinter.c">
+      <Filter>src\pshinter</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\psnames\psmodule.c">
+      <Filter>src\psnames</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\raster\raster.c">
+      <Filter>src\raster</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\sfnt\sfnt.c">
+      <Filter>src\sfnt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\truetype\truetype.c">
+      <Filter>src\truetype</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\type1\type1.c">
+      <Filter>src\type1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\cid\type1cid.c">
+      <Filter>src\cid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\type42\type42.c">
+      <Filter>src\type42</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\winfonts\winfnt.c">
+      <Filter>src\winfonts</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\autofit\autofit.c">
+      <Filter>src\autofit</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\bdf\bdf.c">
+      <Filter>src\bdf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\cff\cff.c">
+      <Filter>src\cff</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\base\ftbase.c">
+      <Filter>src\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\base\ftbitmap.c">
+      <Filter>src\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\cache\ftcache.c">
+      <Filter>src\cache</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ftdebug.c">
+      <Filter>builds\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\base\ftfstype.c">
+      <Filter>src\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\base\ftgasp.c">
+      <Filter>src\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\base\ftglyph.c">
+      <Filter>src\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\gzip\ftgzip.c">
+      <Filter>src\gzip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\base\ftinit.c">
+      <Filter>src\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\lzw\ftlzw.c">
+      <Filter>src\lzw</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\base\ftstroke.c">
+      <Filter>src\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\base\ftsystem.c">
+      <Filter>src\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\smooth\smooth.c">
+      <Filter>src\smooth</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\include\ft2build.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\config\ftconfig.h">
+      <Filter>include\config</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\config\ftheader.h">
+      <Filter>include\config</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\config\ftmodule.h">
+      <Filter>include\config</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\config\ftoption.h">
+      <Filter>include\config</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\config\ftstdlib.h">
+      <Filter>include\config</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

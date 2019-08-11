@@ -1,0 +1,213 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{2e9b0dd5-5c11-41fd-bc86-286a560d774b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\GameObject">
+      <UniqueIdentifier>{41cfa1cf-2a0a-46b4-859d-7391b1b6661e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\GameManager">
+      <UniqueIdentifier>{8f564ffc-a6e6-4eaf-8885-32f59a71f272}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\GameStates">
+      <UniqueIdentifier>{814d324f-c814-4f80-8303-2410fb1ebe09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Helper">
+      <UniqueIdentifier>{5120f28e-c0c4-4042-99b4-ee77982f4f6d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\Application.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\TrainingFramework.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GameObject\Bullet.cpp">
+      <Filter>src\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GameObject\Enermy.cpp">
+      <Filter>src\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GameObject\Font.cpp">
+      <Filter>src\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GameObject\GameButton.cpp">
+      <Filter>src\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GameObject\Player.cpp">
+      <Filter>src\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GameObject\Sprite2D.cpp">
+      <Filter>src\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GameObject\Camera.cpp">
+      <Filter>src\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GameObject\Sprite3D.cpp">
+      <Filter>src\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GameObject\Models.cpp">
+      <Filter>src\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GameObject\Shaders.cpp">
+      <Filter>src\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GameObject\SpriteSheet.cpp">
+      <Filter>src\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GameObject\Text.cpp">
+      <Filter>src\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GameObject\Texture.cpp">
+      <Filter>src\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GameManager\ResourceManagers.cpp">
+      <Filter>src\GameManager</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GameManager\SoundManager.cpp">
+      <Filter>src\GameManager</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GameStates\GameStatebase.cpp">
+      <Filter>src\GameStates</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GameStates\GameStateMachine.cpp">
+      <Filter>src\GameStates</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GameStates\GSIntro.cpp">
+      <Filter>src\GameStates</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GameStates\GSMenu.cpp">
+      <Filter>src\GameStates</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GameStates\GSPlay.cpp">
+      <Filter>src\GameStates</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GameObject\ExplosiveEffect.cpp">
+      <Filter>src\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GameObject\meteor.cpp">
+      <Filter>src\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GameStates\GSSetting.cpp">
+      <Filter>src\GameStates</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GameStates\GSPlayagain.cpp">
+      <Filter>src\GameStates</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GameObject\UFO.cpp">
+      <Filter>src\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GameObject\Bullet2.cpp" />
+    <ClCompile Include="src\GameObject\Bullet3.cpp" />
+    <ClCompile Include="src\GameStates\GSSetting1.cpp" />
+    <ClCompile Include="src\GameStates\GSSetting2.cpp" />
+    <ClCompile Include="src\GameStates\GSSetting3.cpp" />
+    <ClCompile Include="src\GameStates\GSPlayagain1.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\Application.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GameConfig.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GameObject\BaseObject.h">
+      <Filter>src\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GameObject\Bullet.h">
+      <Filter>src\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GameObject\Enermy.h">
+      <Filter>src\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GameObject\Font.h">
+      <Filter>src\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GameObject\GameButton.h">
+      <Filter>src\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GameObject\Player.h">
+      <Filter>src\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GameObject\Sprite2D.h">
+      <Filter>src\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GameObject\Camera.h">
+      <Filter>src\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GameObject\Sprite3D.h">
+      <Filter>src\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GameObject\Models.h">
+      <Filter>src\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GameObject\Shaders.h">
+      <Filter>src\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GameObject\SpriteSheet.h">
+      <Filter>src\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GameObject\Text.h">
+      <Filter>src\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GameObject\Texture.h">
+      <Filter>src\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GameManager\ResourceManagers.h">
+      <Filter>src\GameManager</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GameManager\SoundManager.h">
+      <Filter>src\GameManager</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GameStates\GameStatebase.h">
+      <Filter>src\GameStates</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GameStates\GameStateMachine.h">
+      <Filter>src\GameStates</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GameStates\GSIntro.h">
+      <Filter>src\GameStates</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GameStates\GSMenu.h">
+      <Filter>src\GameStates</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GameStates\GSPlay.h">
+      <Filter>src\GameStates</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Helper\SafeQueue.h">
+      <Filter>src\Helper</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Helper\Singleton.h">
+      <Filter>src\Helper</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Helper\ThreadPool.h">
+      <Filter>src\Helper</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GameObject\ExplosiveEffect.h">
+      <Filter>src\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GameObject\meteor.h">
+      <Filter>src\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GameStates\GSSetting.h">
+      <Filter>src\GameStates</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GameStates\GSPlayagain.h">
+      <Filter>src\GameStates</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GameObject\UFO.h">
+      <Filter>src\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GameObject\Bullet2.h" />
+    <ClInclude Include="src\GameObject\Bullet3.h" />
+    <ClInclude Include="src\GameStates\GSSetting1.h" />
+    <ClInclude Include="src\GameStates\GSSetting2.h" />
+    <ClInclude Include="src\GameStates\GSSetting3.h" />
+    <ClInclude Include="src\GameStates\GSPlayagain1.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+</Project>

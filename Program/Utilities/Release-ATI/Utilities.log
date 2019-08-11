@@ -1,0 +1,13 @@
+﻿  esShader.cpp
+  esUtil.cpp
+  esUtil_win.cpp
+  U_Math.cpp
+D:\Games\Programming\Utilities\src\U_Math.cpp(7,13): warning C4244:  'return': conversion from 'double' to 'GLfloat', possible loss of data
+D:\Games\Programming\Utilities\src\U_Math.cpp(101,13): warning C4244:  'return': conversion from 'double' to 'GLfloat', possible loss of data
+  MemoryManager.cpp
+  MemoryOperators.cpp
+  TGA.cpp
+D:\Games\Programming\Utilities\src\U_Math.cpp(205,13): warning C4244:  'return': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(1445,5): warning MSB8012: TargetPath(D:\Games\Programming\\BIN-ATI\Utilities.lib) does not match the Library's OutputFile property value (D:\Games\Programming\BIN-ATI\UtilitiesR.lib). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(1447,5): warning MSB8012: TargetName(Utilities) does not match the Library's OutputFile property value (UtilitiesR). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+  Utilities.vcxproj -> D:\Games\Programming\\BIN-ATI\Utilities.lib
