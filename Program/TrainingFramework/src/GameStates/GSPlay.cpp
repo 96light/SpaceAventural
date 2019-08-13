@@ -23,8 +23,13 @@ GSPlay::GSPlay()
 {
 	m_SpawnCooldown = 0.1;
 	m_SpawnCooldown2 = 1;
+<<<<<<< HEAD
 	m_SpawnCooldown2 = 0.3;
 	m_score = 0;
+=======
+	 m_SpawnCooldown2=0.3;
+	 m_score = 0; 
+>>>>>>> origin/master
 	// m_sound = sound;
 }
 
