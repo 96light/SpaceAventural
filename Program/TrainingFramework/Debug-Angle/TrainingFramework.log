@@ -4,23 +4,23 @@ C:\Users\quang\OneDrive\Documents\GitHub\SpaceAventural\Program\TrainingFramewor
 C:\Users\quang\OneDrive\Documents\GitHub\SpaceAventural\Program\Soloud\include\soloud.h(37,1): warning C4005:  'WIN32_LEAN_AND_MEAN': macro redefinition
 C:\Users\quang\OneDrive\Documents\GitHub\SpaceAventural\Program\Include\AMD\EGL\eglplatform.h(67): message :  see previous definition of 'WIN32_LEAN_AND_MEAN'
 C:\Users\quang\OneDrive\Documents\GitHub\SpaceAventural\Program\TrainingFramework\src\GameStates\GSPlay.cpp(24,23): warning C4305:  '=': truncation from 'double' to 'float'
-C:\Users\quang\OneDrive\Documents\GitHub\SpaceAventural\Program\TrainingFramework\src\GameStates\GSPlay.cpp(26,24): warning C4305:  '=': truncation from 'double' to 'float'
-C:\Users\quang\OneDrive\Documents\GitHub\SpaceAventural\Program\TrainingFramework\src\GameStates\GSPlay.cpp(46,86): warning C4244:  'argument': conversion from 'int' to 'GLfloat', possible loss of data
-C:\Users\quang\OneDrive\Documents\GitHub\SpaceAventural\Program\TrainingFramework\src\GameStates\GSPlay.cpp(46,55): warning C4244:  'argument': conversion from 'int' to 'GLfloat', possible loss of data
-C:\Users\quang\OneDrive\Documents\GitHub\SpaceAventural\Program\TrainingFramework\src\GameStates\GSPlay.cpp(54,82): warning C4244:  'argument': conversion from 'int' to 'GLfloat', possible loss of data
-C:\Users\quang\OneDrive\Documents\GitHub\SpaceAventural\Program\TrainingFramework\src\GameStates\GSPlay.cpp(54,51): warning C4244:  'argument': conversion from 'int' to 'GLfloat', possible loss of data
-C:\Users\quang\OneDrive\Documents\GitHub\SpaceAventural\Program\TrainingFramework\src\GameStates\GSPlay.cpp(55,92): warning C4244:  'argument': conversion from 'int' to 'GLfloat', possible loss of data
-C:\Users\quang\OneDrive\Documents\GitHub\SpaceAventural\Program\TrainingFramework\src\GameStates\GSPlay.cpp(55,61): warning C4244:  'argument': conversion from 'int' to 'GLfloat', possible loss of data
-C:\Users\quang\OneDrive\Documents\GitHub\SpaceAventural\Program\TrainingFramework\src\GameStates\GSPlay.cpp(141,39): warning C4244:  'argument': conversion from 'int' to 'GLfloat', possible loss of data
-C:\Users\quang\OneDrive\Documents\GitHub\SpaceAventural\Program\TrainingFramework\src\GameStates\GSPlay.cpp(141,36): warning C4244:  'argument': conversion from 'int' to 'GLfloat', possible loss of data
-C:\Users\quang\OneDrive\Documents\GitHub\SpaceAventural\Program\TrainingFramework\src\GameStates\GSPlay.cpp(162,24): warning C4305:  '=': truncation from 'double' to 'float'
-C:\Users\quang\OneDrive\Documents\GitHub\SpaceAventural\Program\TrainingFramework\src\GameStates\GSPlay.cpp(172,25): warning C4305:  '=': truncation from 'double' to 'float'
-C:\Users\quang\OneDrive\Documents\GitHub\SpaceAventural\Program\TrainingFramework\src\GameStates\GSPlay.cpp(384,35): warning C4244:  '=': conversion from 'int' to 'GLfloat', possible loss of data
-C:\Users\quang\OneDrive\Documents\GitHub\SpaceAventural\Program\TrainingFramework\src\GameStates\GSPlay.cpp(399,61): warning C4244:  'argument': conversion from 'int' to 'GLfloat', possible loss of data
-C:\Users\quang\OneDrive\Documents\GitHub\SpaceAventural\Program\TrainingFramework\src\GameStates\GSPlay.cpp(411,10): warning C4244:  '=': conversion from 'int' to 'GLfloat', possible loss of data
-C:\Users\quang\OneDrive\Documents\GitHub\SpaceAventural\Program\TrainingFramework\src\GameStates\GSPlay.cpp(424,36): warning C4244:  '=': conversion from 'int' to 'GLfloat', possible loss of data
-C:\Users\quang\OneDrive\Documents\GitHub\SpaceAventural\Program\TrainingFramework\src\GameStates\GSPlay.cpp(451,10): warning C4244:  '=': conversion from 'int' to 'GLfloat', possible loss of data
-C:\Users\quang\OneDrive\Documents\GitHub\SpaceAventural\Program\TrainingFramework\src\GameStates\GSPlay.cpp(480,10): warning C4244:  '=': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\quang\OneDrive\Documents\GitHub\SpaceAventural\Program\TrainingFramework\src\GameStates\GSPlay.cpp(27,24): warning C4305:  '=': truncation from 'double' to 'float'
+C:\Users\quang\OneDrive\Documents\GitHub\SpaceAventural\Program\TrainingFramework\src\GameStates\GSPlay.cpp(49,86): warning C4244:  'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\quang\OneDrive\Documents\GitHub\SpaceAventural\Program\TrainingFramework\src\GameStates\GSPlay.cpp(49,55): warning C4244:  'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\quang\OneDrive\Documents\GitHub\SpaceAventural\Program\TrainingFramework\src\GameStates\GSPlay.cpp(57,82): warning C4244:  'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\quang\OneDrive\Documents\GitHub\SpaceAventural\Program\TrainingFramework\src\GameStates\GSPlay.cpp(57,51): warning C4244:  'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\quang\OneDrive\Documents\GitHub\SpaceAventural\Program\TrainingFramework\src\GameStates\GSPlay.cpp(58,92): warning C4244:  'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\quang\OneDrive\Documents\GitHub\SpaceAventural\Program\TrainingFramework\src\GameStates\GSPlay.cpp(58,61): warning C4244:  'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\quang\OneDrive\Documents\GitHub\SpaceAventural\Program\TrainingFramework\src\GameStates\GSPlay.cpp(144,39): warning C4244:  'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\quang\OneDrive\Documents\GitHub\SpaceAventural\Program\TrainingFramework\src\GameStates\GSPlay.cpp(144,36): warning C4244:  'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\quang\OneDrive\Documents\GitHub\SpaceAventural\Program\TrainingFramework\src\GameStates\GSPlay.cpp(165,24): warning C4305:  '=': truncation from 'double' to 'float'
+C:\Users\quang\OneDrive\Documents\GitHub\SpaceAventural\Program\TrainingFramework\src\GameStates\GSPlay.cpp(175,25): warning C4305:  '=': truncation from 'double' to 'float'
+C:\Users\quang\OneDrive\Documents\GitHub\SpaceAventural\Program\TrainingFramework\src\GameStates\GSPlay.cpp(387,35): warning C4244:  '=': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\quang\OneDrive\Documents\GitHub\SpaceAventural\Program\TrainingFramework\src\GameStates\GSPlay.cpp(402,61): warning C4244:  'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\quang\OneDrive\Documents\GitHub\SpaceAventural\Program\TrainingFramework\src\GameStates\GSPlay.cpp(414,10): warning C4244:  '=': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\quang\OneDrive\Documents\GitHub\SpaceAventural\Program\TrainingFramework\src\GameStates\GSPlay.cpp(427,36): warning C4244:  '=': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\quang\OneDrive\Documents\GitHub\SpaceAventural\Program\TrainingFramework\src\GameStates\GSPlay.cpp(454,10): warning C4244:  '=': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\quang\OneDrive\Documents\GitHub\SpaceAventural\Program\TrainingFramework\src\GameStates\GSPlay.cpp(483,10): warning C4244:  '=': conversion from 'int' to 'GLfloat', possible loss of data
 C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.21.27702\include\memory(1527,71): warning C4244:  'argument': conversion from '_Ty' to 'float', possible loss of data
 C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.21.27702\include\memory(1527,71): warning C4244:         with
 C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.21.27702\include\memory(1527,71): warning C4244:         [
@@ -36,5 +36,5 @@ C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\1
 C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.21.27702\include\memory(1582): message :         [
 C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.21.27702\include\memory(1582): message :             _Ty=Text
 C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.21.27702\include\memory(1582): message :         ]
-C:\Users\quang\OneDrive\Documents\GitHub\SpaceAventural\Program\TrainingFramework\src\GameStates\GSPlay.cpp(63): message :  see reference to function template instantiation 'std::shared_ptr<Text> std::make_shared<Text,std::shared_ptr<Shaders>&,std::shared_ptr<Font>&,const char(&)[8],TEXT_COLOR,double>(std::shared_ptr<Shaders> &,std::shared_ptr<Font> &,const char (&)[8],TEXT_COLOR &&,double &&)' being compiled
+C:\Users\quang\OneDrive\Documents\GitHub\SpaceAventural\Program\TrainingFramework\src\GameStates\GSPlay.cpp(66): message :  see reference to function template instantiation 'std::shared_ptr<Text> std::make_shared<Text,std::shared_ptr<Shaders>&,std::shared_ptr<Font>&,const char(&)[8],TEXT_COLOR,double>(std::shared_ptr<Shaders> &,std::shared_ptr<Font> &,const char (&)[8],TEXT_COLOR &&,double &&)' being compiled
   TrainingFramework.vcxproj -> C:\Users\quang\OneDrive\Documents\GitHub\SpaceAventural\Program\\BIN-Angle\TrainingFramework.exe
