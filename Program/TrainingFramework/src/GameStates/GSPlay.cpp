@@ -23,8 +23,8 @@ GSPlay::GSPlay()
 {
 	m_SpawnCooldown = 0.1;
 	m_SpawnCooldown2 = 1;
-	 m_SpawnCooldown2=0.3;
-	 m_score = 40; 
+	m_SpawnCooldown2 = 0.3;
+	m_score = 0;
 	// m_sound = sound;
 }
 
@@ -45,17 +45,17 @@ void GSPlay::Init()
 	m_BackGround = std::make_shared<Sprite2D>(model, shader, texture);
 	m_BackGround->Set2DPosition(Application::screenWidth / 2, Application::screenHeight / 2);
 	m_BackGround->SetSize(Application::screenWidth, Application::screenHeight);
-	
-	
-	
-	
+
+
+
+
 	texture = ResourceManagers::GetInstance()->GetTexture("player");
 	m_Player = std::make_shared<Player >(model, shader, texture);
 	m_Player->Set2DPosition(Application::screenWidth / 2, Application::screenHeight - 100);
 	m_Player->MoveToPossition(Vector2(Application::screenWidth / 2, Application::screenHeight - 100));
 	m_Player->SetSize(50, 50);
 	texture = ResourceManagers::GetInstance()->GetTexture("dirt");
-	
+
 
 	//text game title
 	shader = ResourceManagers::GetInstance()->GetShader("TextShader");
@@ -78,7 +78,7 @@ void GSPlay::Init()
 	SoundManager::GetInstance()->AddSound("explosive");
 	SoundManager::GetInstance()->AddSound("explosive_2");
 	SoundManager::GetInstance()->AddSound("bground");
-	
+
 	SoundManager::GetInstance()->AddSound("fire");
 	SoundManager::GetInstance()->AddSound("fire_enemy");
 	ifstream FileIn;
@@ -89,19 +89,19 @@ void GSPlay::Init()
 	{
 		cout << "\nFile cua ban khong ton tai";
 	}
-    int x;
+	int x;
 	int y;
 	FileIn >> x;
 	FileIn >> y;
-	sfx=x;
+	sfx = x;
 	sfx2 = y;
 	//bgm = y;
-	
+
 	FileIn.close();
-	if(sfx2 ==1){
+	if (sfx2 == 1) {
 		SoundManager::GetInstance()->PlaySound("bground");
 	}
-	
+
 
 }
 
@@ -146,7 +146,7 @@ void GSPlay::HandleTouchEvents(int x, int y, bool bIsPressed)
 {
 	//SoundManager::GetInstance()->PauseSound("bground");
 	if (m_Player->CanShoot())
-		m_Player->Shoot(m_listBullet,sfx);
+		m_Player->Shoot(m_listBullet, sfx);
 }
 
 void GSPlay::Update(float deltaTime)
@@ -179,7 +179,7 @@ void GSPlay::Update(float deltaTime)
 	if (m_SpawnCooldown3 <= 0)
 	{
 		CreateRandomUFO();
-		m_SpawnCooldown3 = 0.9;
+		m_SpawnCooldown3 = 100000;
 	}
 	//update player
 	if (m_Player->IsAlive())
@@ -192,7 +192,7 @@ void GSPlay::Update(float deltaTime)
 		m_Player->CheckCollider(m_listBullet, m_listBullet2, m_listBullet3, m_listEnermy);
 		m_Player->CheckCollider2(m_listMeteor);
 	}
-	
+
 	else {
 		SoundManager::GetInstance()->PauseSound("bground");
 		GameStateMachine::GetInstance()->ChangeState(StateTypes::STATE_Playagain);
@@ -264,7 +264,7 @@ void GSPlay::Update(float deltaTime)
 		}
 	}
 
-	
+
 	//hp = m_Player->GetHeal;
 	if (m_score == 42)
 	{
@@ -276,17 +276,17 @@ void GSPlay::Update(float deltaTime)
 			{
 				if (UFO->IsExplosive())
 				{
-					
+
 					UFO->SetActive(false);
 					SpawnExplosive(UFO->Get2DPosition());
 					continue;
-					
-					
+
+
 				}
 
 				UFO->Update(deltaTime);
-				
-				if (UFO->CanShoot()){
+
+				if (UFO->CanShoot()) {
 					UFO->Shoot(m_listBullet);
 					UFO->Shoot2(m_listBullet2);
 					UFO->Shoot3(m_listBullet3);
@@ -301,7 +301,7 @@ void GSPlay::Update(float deltaTime)
 			}
 		}
 	}
-	
+
 	//update Score
 	std::stringstream stream;
 	stream << std::fixed << std::setprecision(0) << m_score;
@@ -321,7 +321,7 @@ void GSPlay::Draw()
 	for (auto enermy : m_listEnermy)
 		if (enermy->IsActive())
 			enermy->Draw();
-	if(m_score==42){
+	if (m_score == 42) {
 		for (auto enermy : m_listEnermy)
 			if (enermy->IsActive())
 				enermy->SetActive(0);
@@ -381,10 +381,10 @@ void GSPlay::CreateRandomUFO()
 	}
 	*/
 	Vector2 pos;
-	pos.x = Application::screenWidth /2;
+	pos.x = Application::screenWidth / 2;
 	pos.y = 200;
-	
-	
+
+
 	auto model = ResourceManagers::GetInstance()->GetModel("Sprite2D");
 	auto shader = ResourceManagers::GetInstance()->GetShader("TextureShader");
 	auto texture = ResourceManagers::GetInstance()->GetTexture("enemyUFO");
@@ -392,17 +392,18 @@ void GSPlay::CreateRandomUFO()
 	std::shared_ptr<UFO> enermy = std::make_shared<UFO>(model, shader, texture);
 
 	enermy->SetActive(true);
-	
+
 	enermy->Set2DPosition(pos);
 	enermy->SetSize(400, 400);
 	enermy->SetRotation(180);
-	m_listEnermy2.push_back(enermy);	
+	enermy->SetTargetPosition(Vector2(Application::screenWidth - 100, 200));
+	m_listEnermy2.push_back(enermy);
 	//}
 }
 void GSPlay::CreateRandomUFO2()
 {
-	
-	int range = Application::screenHeight- 10 + 1;
+
+	int range = Application::screenHeight - 10 + 1;
 	int num = rand() % range + 10;
 
 	Vector2 pos;

@@ -1,4 +1,5 @@
 ﻿  cl : Command line warning D9035 : option 'Gm' has been deprecated and will be removed in a future release
+  TrainingFramework.cpp
   GSPlay.cpp
 C:\Users\quang\OneDrive\Documents\GitHub\SpaceAventural\Program\TrainingFramework\src\Helper\ThreadPool.h(37,13): warning C4477:  'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'std::thread::id'
 C:\Users\quang\OneDrive\Documents\GitHub\SpaceAventural\Program\Soloud\include\soloud.h(37,1): warning C4005:  'WIN32_LEAN_AND_MEAN': macro redefinition
@@ -36,8 +37,15 @@ C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\1
 C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.21.27702\include\memory(1582): message :         [
 C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.21.27702\include\memory(1582): message :             _Ty=Text
 C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.21.27702\include\memory(1582): message :         ]
-  Player.cpp
+  UFO.cpp
 C:\Users\quang\OneDrive\Documents\GitHub\SpaceAventural\Program\TrainingFramework\src\GameStates\GSPlay.cpp(63): message :  see reference to function template instantiation 'std::shared_ptr<Text> std::make_shared<Text,std::shared_ptr<Shaders>&,std::shared_ptr<Font>&,const char(&)[8],TEXT_COLOR,double>(std::shared_ptr<Shaders> &,std::shared_ptr<Font> &,const char (&)[8],TEXT_COLOR &&,double &&)' being compiled
+C:\Users\quang\OneDrive\Documents\GitHub\SpaceAventural\Program\TrainingFramework\src\Helper\ThreadPool.h(37,13): warning C4477:  'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'std::thread::id'
+C:\Users\quang\OneDrive\Documents\GitHub\SpaceAventural\Program\Soloud\include\soloud.h(37,1): warning C4005:  'WIN32_LEAN_AND_MEAN': macro redefinition
+C:\Users\quang\OneDrive\Documents\GitHub\SpaceAventural\Program\Include\AMD\EGL\eglplatform.h(67): message :  see previous definition of 'WIN32_LEAN_AND_MEAN'
+C:\Users\quang\OneDrive\Documents\GitHub\SpaceAventural\Program\TrainingFramework\src\GameObject\UFO.cpp(10,21): warning C4305:  '=': truncation from 'double' to 'float'
+C:\Users\quang\OneDrive\Documents\GitHub\SpaceAventural\Program\TrainingFramework\src\GameObject\UFO.cpp(47,18): warning C4552:  '+': result of expression not used
+  Player.cpp
+C:\Users\quang\OneDrive\Documents\GitHub\SpaceAventural\Program\TrainingFramework\src\GameObject\UFO.cpp(168,34): warning C4244:  '-=': conversion from 'float' to 'int', possible loss of data
 C:\Users\quang\OneDrive\Documents\GitHub\SpaceAventural\Program\TrainingFramework\src\Helper\ThreadPool.h(37,13): warning C4477:  'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'std::thread::id'
 C:\Users\quang\OneDrive\Documents\GitHub\SpaceAventural\Program\Soloud\include\soloud.h(37,1): warning C4005:  'WIN32_LEAN_AND_MEAN': macro redefinition
 C:\Users\quang\OneDrive\Documents\GitHub\SpaceAventural\Program\Include\AMD\EGL\eglplatform.h(67): message :  see previous definition of 'WIN32_LEAN_AND_MEAN'
@@ -46,8 +54,12 @@ C:\Users\quang\OneDrive\Documents\GitHub\SpaceAventural\Program\TrainingFramewor
 C:\Users\quang\OneDrive\Documents\GitHub\SpaceAventural\Program\TrainingFramework\src\GameObject\Player.cpp(156,34): warning C4244:  '-=': conversion from 'float' to 'int', possible loss of data
 C:\Users\quang\OneDrive\Documents\GitHub\SpaceAventural\Program\TrainingFramework\src\GameObject\Player.cpp(168,34): warning C4244:  '-=': conversion from 'float' to 'int', possible loss of data
 C:\Users\quang\OneDrive\Documents\GitHub\SpaceAventural\Program\TrainingFramework\src\GameObject\Player.cpp(180,34): warning C4244:  '-=': conversion from 'float' to 'int', possible loss of data
-  Generating Code...
+  Enermy.cpp
 C:\Users\quang\OneDrive\Documents\GitHub\SpaceAventural\Program\TrainingFramework\src\GameObject\Player.cpp(196,34): warning C4244:  '-=': conversion from 'float' to 'int', possible loss of data
-Application.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/SAFESEH' specification
-LINK : warning LNK4098: defaultlib 'LIBCMTD' conflicts with use of other libs; use /NODEFAULTLIB:library
+C:\Users\quang\OneDrive\Documents\GitHub\SpaceAventural\Program\TrainingFramework\src\Helper\ThreadPool.h(37,13): warning C4477:  'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'std::thread::id'
+C:\Users\quang\OneDrive\Documents\GitHub\SpaceAventural\Program\Soloud\include\soloud.h(37,1): warning C4005:  'WIN32_LEAN_AND_MEAN': macro redefinition
+C:\Users\quang\OneDrive\Documents\GitHub\SpaceAventural\Program\Include\AMD\EGL\eglplatform.h(67): message :  see previous definition of 'WIN32_LEAN_AND_MEAN'
+C:\Users\quang\OneDrive\Documents\GitHub\SpaceAventural\Program\TrainingFramework\src\GameObject\Enermy.cpp(10,21): warning C4305:  '=': truncation from 'double' to 'float'
+  Generating Code...
+C:\Users\quang\OneDrive\Documents\GitHub\SpaceAventural\Program\TrainingFramework\src\GameObject\Enermy.cpp(114,34): warning C4244:  '-=': conversion from 'float' to 'int', possible loss of data
   TrainingFramework.vcxproj -> C:\Users\quang\OneDrive\Documents\GitHub\SpaceAventural\Program\\BIN-Nvidia\TrainingFramework.exe

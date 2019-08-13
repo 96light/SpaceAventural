@@ -24,14 +24,15 @@ public:
 	void		SetColliderSize(float size);
 	float		GetColliderSize();
 
-	void		SetDamage(float damage); 
-		float		GetDamage();
+	void		SetDamage(float damage);
+	float		GetDamage();
 
 	void		Explosive();
 	bool		IsExplosive();
+	void		SetTargetPosition(Vector2 pos);
 
 private:
-	int		m_Heal=500;
+	int		m_Heal = 500;
 	bool	m_active;
 	bool	m_Explosive;
 	float	m_speed;
@@ -42,5 +43,6 @@ private:
 	float	m_SizeCollider;
 	int sfx;
 	float distance(Vector2 pos, Vector2 target);
+	Vector2 m_TargetPosition;
 
 };

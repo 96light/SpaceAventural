@@ -12,6 +12,8 @@ SoundManager::SoundManager()
 
 SoundManager::~SoundManager()
 {
+	m_MapWave.clear();
+	m_Soloud->deinit();
 }
 
 void SoundManager::AddSound(const std::string& name)

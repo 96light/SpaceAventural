@@ -8,8 +8,9 @@ UFO::UFO(std::shared_ptr<Models>& model, std::shared_ptr<Shaders>& shader, std::
 {
 	m_active = false;
 	m_MaxCooldown = 0.6;
+	m_TargetPosition = Vector2(0, 0);
 	m_Cooldown = 0.5;
-	m_speed = 0;
+	m_speed = 200;
 	m_MaxSpeed = 500;
 	m_Heal = 100;
 	m_Damage = 20;
@@ -35,16 +36,17 @@ UFO::~UFO()
 }
 
 
-void UFO::Update(float deltaTime){
+void UFO::Update(float deltaTime) {
 	if (!m_active)
 		return;
 
 	if (m_Heal <= 0 || m_Explosive)
- 	 {  if(sfx==1){
-		SoundManager::GetInstance()->PlaySound("win");
-	}
+	{
+		if (sfx == 1) {
+			SoundManager::GetInstance()->PlaySound("win");
+		}
 		m_Explosive = true;
-		GSPlay::m_score+10;
+		GSPlay::m_score + 10;
 		return;
 	}
 
@@ -54,12 +56,41 @@ void UFO::Update(float deltaTime){
 	}
 
 	Vector2 pos = Get2DPosition();
-	//pos.y = pos.y + m_speed * deltaTime;
-	pos.x = pos.x + m_speed * deltaTime;
-	Set2DPosition(pos);
 
-	if (pos.x > Application::screenWidth)
-		m_active = false;
+	if (pos.x == Application::screenWidth - 100 && pos.y == 200) {
+		SetTargetPosition(Vector2(Application::screenWidth - 900, 200));
+	}
+	if (pos.x == Application::screenWidth - 900 && pos.y == 200) {
+		SetTargetPosition(Vector2(Application::screenWidth - 100, 200));
+	}
+	if (pos.x < m_TargetPosition.x)
+	{
+		pos.x += m_speed * deltaTime;
+		if (pos.x > m_TargetPosition.x)
+			pos.x = m_TargetPosition.x;
+	}
+
+	if (pos.x > m_TargetPosition.x)
+	{
+		pos.x -= m_speed * deltaTime;
+		if (pos.x < m_TargetPosition.x)
+			pos.x = m_TargetPosition.x;
+	}
+
+	if (pos.y < m_TargetPosition.y)
+	{
+		pos.y += m_speed * deltaTime;
+		if (pos.y > m_TargetPosition.y)
+			pos.y = m_TargetPosition.y;
+	}
+
+	if (pos.y > m_TargetPosition.y)
+	{
+		pos.y -= m_speed * deltaTime;
+		if (pos.y < m_TargetPosition.y)
+			pos.y = m_TargetPosition.y;
+	}
+	Set2DPosition(pos);
 }
 
 bool UFO::CanShoot()
@@ -87,7 +118,7 @@ void UFO::Shoot(std::vector<std::shared_ptr<Bullet>>& listBullet)
 	auto texture = ResourceManagers::GetInstance()->GetTexture("bullet");
 
 	std::shared_ptr<Bullet> bullet = std::make_shared<Bullet>(model, shader, texture);
-	bullet->SetSize(15, 20);
+	bullet->SetSize(20, 20);
 	bullet->Set2DPosition(Get2DPosition());
 	bullet->SetSpeed(-500);
 	bullet->SetType(BULLET_TYPE::Enermy);
@@ -114,7 +145,7 @@ void UFO::Shoot2(std::vector<std::shared_ptr<Bullet2>>& listBullet)
 	auto texture = ResourceManagers::GetInstance()->GetTexture("bullet");
 
 	std::shared_ptr<Bullet2> bullet = std::make_shared<Bullet2>(model, shader, texture);
-	bullet->SetSize(15, 20);
+	bullet->SetSize(20, 20);
 	bullet->Set2DPosition(Get2DPosition());
 	bullet->SetSpeed(-500);
 	bullet->SetType(BULLET_TYPE2::Enermy);
@@ -141,7 +172,7 @@ void UFO::Shoot3(std::vector<std::shared_ptr<Bullet3>>& listBullet)
 	auto texture = ResourceManagers::GetInstance()->GetTexture("bullet");
 
 	std::shared_ptr<Bullet3> bullet = std::make_shared<Bullet3>(model, shader, texture);
-	bullet->SetSize(15, 20);
+	bullet->SetSize(20, 20);
 	bullet->Set2DPosition(Get2DPosition());
 	bullet->SetSpeed(-500);
 	bullet->SetType(BULLET_TYPE3::Enermy);
@@ -155,7 +186,7 @@ float UFO::distance(Vector2 pos, Vector2 target)
 
 void UFO::CheckCollider(std::vector<std::shared_ptr<Bullet>>& listBullet)
 {
-	
+
 	Vector2 pos = Get2DPosition();
 
 	for (auto bullet : listBullet)
@@ -214,4 +245,9 @@ void UFO::SetColliderSize(float size)
 float UFO::GetColliderSize()
 {
 	return m_SizeCollider;
+}
+
+void UFO::SetTargetPosition(Vector2 pos)
+{
+	m_TargetPosition = pos;
 }
